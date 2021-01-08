@@ -1,0 +1,61 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="customer-surveys"
+    id="id-c70364b89b3f46fe9e7f49803a297338">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-customer-surveys"/>
+  <properties
+      key="Descripción"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Calidad"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://customer-surveys-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Permite registrar una valoración del producto adquirido"/>
+  <properties
+      key="Función 2"
+      value="Ejecución de la transferencia interbancaria inmediata"/>
+  <properties
+      key="URL Función 1"
+      value="[POST] https://customer-surveys-v1-des.ocpappdes.financiero.bco/marketing/customer-surveys/v1.0/product-feedbacks"/>
+  <properties
+      key="URL Función 2"
+      value="[POST] https://ach-fulfillment-v1-cal.ocpappcal.financiero.bco/payments/ach-fulfillment/v1.0/inmediate-external-transfers"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

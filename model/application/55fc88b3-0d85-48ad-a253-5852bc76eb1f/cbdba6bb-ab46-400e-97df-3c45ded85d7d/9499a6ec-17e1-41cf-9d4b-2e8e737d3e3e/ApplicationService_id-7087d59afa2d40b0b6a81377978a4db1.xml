@@ -1,0 +1,62 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="job-manager"
+    id="id-7087d59afa2d40b0b6a81377978a4db1">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-job-manager"/>
+  <properties
+      key="Descripción"
+      value="Expone funcionalidades que permite consultar las tareas programadas"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Soporte"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Desarrollo"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://jsc-cross-job-manager-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Esta funcionalidad permite consultar la ejecución de las tareas programadas"/>
+  <properties
+      key="Función 2"
+      value="Esta funcionalidad permite consultar el detalle de una tarea específica"/>
+  <properties
+      key="URL Función 1"
+      value="[GET] https://jsc-cross-job-manager-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/job-manager/jobs"/>
+  <properties
+      key="URL Función 2"
+      value="[GET] https://jsc-cross-job-manager-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/job-manager/jobs/{jobId}"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

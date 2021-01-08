@@ -1,0 +1,61 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="customer-agreement"
+    id="729b8917-e022-405f-8752-ad8023ed90a9">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-customer-agreement"/>
+  <properties
+      key="Descripción"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Calidad"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://customer-agreement-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Registra los términos y condiciones del cliente mediante su código IBS"/>
+  <properties
+      key="Función 2"
+      value="Obtiene una colección de los términos y condiciones del cliente mediante su código IBS"/>
+  <properties
+      key="URL Función 1"
+      value="[POST] https://customer-agreement-v1-des.ocpappdes.financiero.bco/customer-management/customer-agreement/v1.0/data-usage-agreements"/>
+  <properties
+      key="URL Función 2"
+      value="[POST] https://customer-agreement-v1-des.ocpappdes.financiero.bco/customer-management/customer-agreement/v1.0/data-usage-agreements/{personId}"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

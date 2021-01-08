@@ -1,0 +1,74 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="personal-account"
+    id="c1b20c0a-6ab7-4626-a761-cdc126cca1fa">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-personal-account"/>
+  <properties
+      key="Descripción"
+      value="Gestiona información de las cuentas de clientes naturales del banco. Inclute la administración de los tipos de cuentas corrientes, ahorros, fondos otorgado a trabajadores (CTS) y depósitos a plaza fijo"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Producción"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://personal-account-v2-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Permite obtener la colección de movimientos de una cuenta"/>
+  <properties
+      key="Función 2"
+      value="Permite obtener la colección de las cuentas de un cliente"/>
+  <properties
+      key="Función 3"
+      value="Permite registrar una nueva cuenta asociada a un cliente"/>
+  <properties
+      key="Función 4"
+      value="Permite obtener la información de la cuenta del cliente"/>
+  <properties
+      key="URL Función 1"
+      value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v1.0/account-transactions?accountId={accountId}&amp;limit={limit}"/>
+  <properties
+      key="URL Función 2"
+      value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts?personId={personId}&amp;groupCode={groupCode}"/>
+  <properties
+      key="URL Función 3"
+      value="[POST] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts"/>
+  <properties
+      key="URL Función 4"
+      value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts/{accountId}?$select=jointMember"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="2.0.0"/>
+</archimate:ApplicationService>

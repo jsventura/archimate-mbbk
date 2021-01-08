@@ -1,0 +1,5 @@
+<archimate:Artifact
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" HTTPS"
+    id="id-990dcc7478774a75a13366b8859b275c"
+    documentation="Todo tráfico debe ser de HTTP a HTTPS, la navegación vía HTTP no debe ser permitida, para ello se requiere una regla que permita esa redirección PERMANENTE&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Pasos:&#xD;&#xA;&#xD;&#xA;1. Ubicarse en el panel de Azure CDN.&#xD;&#xA;2. Seleccionar la opción Settings / Rules Engine.&#xD;&#xA;3. Add rule.&#xD;&#xA;4. En &quot;Name&quot; indicar el valor &quot;EnforceHTTPS&quot;.&#xD;&#xA;5. &quot;Add condition&quot;, seleccionar &quot;Request Protocol&quot;.&#xD;&#xA;5.1. &quot;Operator&quot; seleccionar &quot;Equals&quot;.&#xD;&#xA;5.2. &quot;Value&quot; seleccionar &quot;HTTP&quot;. &#xD;&#xA;6. &quot;Add action&quot;, seleccionar &quot;URL redirect&quot;.&#xD;&#xA;6.1. &quot;Type&quot;, seleccionar &quot;Found (302)&quot;.&#xD;&#xA;6.2. &quot;Protocol&quot;, seleccionar &quot;HTTPS&quot;&#xD;&#xA;7. Guardar"/>

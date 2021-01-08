@@ -1,0 +1,56 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="document-services"
+    id="id-9b9510d74531428295d346ce355a6abf">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-document-services"/>
+  <properties
+      key="Descripción"
+      value="Maneja el seguimiento de estado, clasificación, grabación / copia, almacenamiento y recuperación de todos los documentos activos, importantes o legalmente significativos. Puede incluir servicios que recuperan documentos de fuentes externas. Esto puede combinar el almacenamiento, recuperación y la distribución de documentos físicos, pero generalmente electrónicos"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Calidad"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://document-services-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Previsualiza la ejecución de la transferencia interbancaria inmediata"/>
+  <properties
+      key="URL Función 1"
+      value="[POST] https://document-services-v1-des.ocpappdes.financiero.bco/document-management-archive/document-services/v1.0/product-agreement-documents?productId={productId}&amp;productType={productType}"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

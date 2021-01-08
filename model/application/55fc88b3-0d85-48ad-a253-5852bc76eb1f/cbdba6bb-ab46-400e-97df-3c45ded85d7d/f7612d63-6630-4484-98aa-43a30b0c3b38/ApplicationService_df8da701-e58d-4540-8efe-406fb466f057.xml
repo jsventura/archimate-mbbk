@@ -1,0 +1,79 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="citizens"
+    id="df8da701-e58d-4540-8efe-406fb466f057">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-citizens"/>
+  <properties
+      key="Descripción"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Producción"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://citizens-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Permite obtener información de un ciudadano mediante su número de documento de identidad"/>
+  <properties
+      key="Función 2"
+      value="Permite validar la identidad de la persona mediante su huella dactilar y su dni"/>
+  <properties
+      key="Función 3"
+      value="Permite obtener las mejores huella mediante el dni de la persona"/>
+  <properties
+      key="Función 4"
+      value="Obtener una lista de preguntas para identificación de identidad de una persona"/>
+  <properties
+      key="Función 5"
+      value="Valida las respuestas de identificación de identidad de una persona"/>
+  <properties
+      key="URL Función 1"
+      value="[GET] https://citizens-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/citizens/{identificationNumber}"/>
+  <properties
+      key="URL Función 2"
+      value="[POST] https://citizens-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/citizens/fingerprints/validate"/>
+  <properties
+      key="URL Función 3"
+      value="[GET] https://citizens-v1-des.ocpappdes.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/fingerprints​/view"/>
+  <properties
+      key="URL Función 4"
+      value="[GET] https://citizens-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/citizens/identity-questions"/>
+  <properties
+      key="URL Función 5"
+      value="[POST] https://citizens-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/citizens/identity-questions/validate"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

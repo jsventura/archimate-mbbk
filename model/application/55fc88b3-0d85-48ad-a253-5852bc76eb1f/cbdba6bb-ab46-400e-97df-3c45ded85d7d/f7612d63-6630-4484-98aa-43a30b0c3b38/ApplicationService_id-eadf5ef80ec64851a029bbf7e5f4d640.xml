@@ -1,0 +1,56 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="underwriting"
+    id="id-eadf5ef80ec64851a029bbf7e5f4d640">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-underwriting"/>
+  <properties
+      key="Descripción"
+      value="Administra el proceso de decisión y los diferentes niveles de autorización requeridos para los préstamos. Underwritting es una etapa de autorización especifica para solicitar un préstamo donde se consideran diferentes aspectos del crédito y otros factores relacionados con el cliente como el historial, información de riesgo, posicionamiento"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Producción"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://underwriting-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Permite obtener el score de riesgo de una persona natural o jurídica"/>
+  <properties
+      key="URL Función 1"
+      value="[GET] https://underwriting-v1-des.ocpappdes.financiero.bco/sales/underwriting/v1.0/risk-providers"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

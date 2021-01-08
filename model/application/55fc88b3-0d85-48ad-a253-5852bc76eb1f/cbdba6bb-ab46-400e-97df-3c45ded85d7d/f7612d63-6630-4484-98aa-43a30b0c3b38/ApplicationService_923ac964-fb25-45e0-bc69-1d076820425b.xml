@@ -1,0 +1,98 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="party-data-management"
+    id="923ac964-fb25-45e0-bc69-1d076820425b">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-party-data-management"/>
+  <properties
+      key="Descripción"
+      value="Gestiona un conjunto de información referente según el tipo de entidad con el cual el banco mantiene relación comercial/legal. Por ejemplo: personas o clientes, empresas o socio comerciales, asociaciones, corporaciones, subsidiarias, etc"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Negocio"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Producción"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://party-data-management-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Permite obtener una colección de las entidades financieras"/>
+  <properties
+      key="Función 2"
+      value="Permite obtener información de una entidad financiera según su código"/>
+  <properties
+      key="Función 3"
+      value="Busca diversas organizaciones / empresas en IBS"/>
+  <properties
+      key="Función 4"
+      value="Registra una organización / empresa en IBS"/>
+  <properties
+      key="Función 5"
+      value="Obtiene los datos de una organización / empresa en IBS"/>
+  <properties
+      key="Función 6"
+      value="Permite obtener los datos de un cliente mediante su tipo y número de documento de identidad"/>
+  <properties
+      key="Función 7"
+      value="Permite registrar un nuevo cliente y generar su código IBS"/>
+  <properties
+      key="Función 8"
+      value="Permite obtener los datos de un cliente por medio de su código IBS"/>
+  <properties
+      key="URL Función 1"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/financial-entities"/>
+  <properties
+      key="URL Función 2"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/financial-entities/{financialEntityId}"/>
+  <properties
+      key="URL Función 3"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/organisations"/>
+  <properties
+      key="URL Función 4"
+      value="[POST] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/organisations"/>
+  <properties
+      key="URL Función 5"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/organisations/{organisationId}"/>
+  <properties
+      key="URL Función 6"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/persons"/>
+  <properties
+      key="URL Función 7"
+      value="[POST] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/persons"/>
+  <properties
+      key="URL Función 8"
+      value="[GET] https://party-data-management-v1-des.ocpappdes.financiero.bco/party/party-data-management/v1.0/persons/{personId}"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>

@@ -1,0 +1,128 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="user-security"
+    id="36670964-42c3-4aba-b3bb-5a859ec19753">
+  <properties
+      key="Nombre del servicio"
+      value="jarvis-cross-services-user-security"/>
+  <properties
+      key="Descripción"
+      value="Es la API que gestiona datos y mecanismos de seguridad de los usuarios del banco"/>
+  <properties
+      key="Categoría"
+      value="Servicio de Soporte"/>
+  <properties
+      key="Tipo de solución lógica"
+      value="Atómico"/>
+  <properties
+      key="Disponibilidad"
+      value="24x7"/>
+  <properties
+      key="Proceso de negocio"/>
+  <properties
+      key="Estado"
+      value="Producción"/>
+  <properties
+      key="Dueño del Servicio"/>
+  <properties
+      key="Interfaz"
+      value="API REST"/>
+  <properties
+      key="API Contract"
+      value="https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
+  <properties
+      key="Función 1"
+      value="Genera una clave dinámica"/>
+  <properties
+      key="Función 2"
+      value="Registro de usuario en el servicio DetectId"/>
+  <properties
+      key="Función 3"
+      value="Valida la clave dinámica que se envío al usuario"/>
+  <properties
+      key="Función 4"
+      value="Permite el cierre de sesión del usuario"/>
+  <properties
+      key="Función 5"
+      value="Permite refrescar la sesión del usuario"/>
+  <properties
+      key="Función 6"
+      value="Recupera datos del usuario a través del código del cliente ó nombre de usuario ó tipo documento y número del documento de identidad"/>
+  <properties
+      key="Función 7"
+      value="Crea un usuario en el sistema"/>
+  <properties
+      key="Función 8"
+      value="Verifica si el cliente puede crearse como un usuario en el sistema"/>
+  <properties
+      key="Función 9"
+      value="Modifica los datos de contacto del usuario"/>
+  <properties
+      key="Función 10"
+      value="Restaura las credenciales de acceso del usuario"/>
+  <properties
+      key="Función 11"
+      value="Valida credenciales de acceso de usuarios"/>
+  <properties
+      key="Función 12"
+      value="Generación de teclado virtual"/>
+  <properties
+      key="Función 13"
+      value="Validación de secuencia de caracteres correspondientes al teclado virtual generado"/>
+  <properties
+      key="URL Función 1"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/generate"/>
+  <properties
+      key="URL Función 2"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/dynamic-keys/subscribe"/>
+  <properties
+      key="URL Función 3"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/dynamic-keys/validate"/>
+  <properties
+      key="URL Función 4"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/user-sessions/logout"/>
+  <properties
+      key="URL Función 5"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/user-sessions/refresh"/>
+  <properties
+      key="URL Función 6"
+      value="[GET] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users"/>
+  <properties
+      key="URL Función 7"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users"/>
+  <properties
+      key="URL Función 8"
+      value="[PUT] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users-enrollment/verify"/>
+  <properties
+      key="URL Función 9"
+      value="[PATCH] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users/{personId}"/>
+  <properties
+      key="URL Función 10"
+      value="[PUT] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users/{userCode}"/>
+  <properties
+      key="URL Función 11"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/users/authenticate"/>
+  <properties
+      key="URL Función 12"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/support-channel/jrvs/v1.0/user-security/virtual-keyboards/generate"/>
+  <properties
+      key="URL Función 13"
+      value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/virtual-keyboards​/validate"/>
+  <properties
+      key="Seguridad"/>
+  <properties
+      key="Tecnología"
+      value="Java + Spring"/>
+  <properties
+      key="Tipo de integración"
+      value="Sincrono"/>
+  <properties
+      key="Ubicación"
+      value="On-premise"/>
+  <properties
+      key="Plataforma/Instancia"
+      value="OpenShift Cluster K8S"/>
+  <properties
+      key="Versión de implementación"
+      value="1.0.0"/>
+</archimate:ApplicationService>
