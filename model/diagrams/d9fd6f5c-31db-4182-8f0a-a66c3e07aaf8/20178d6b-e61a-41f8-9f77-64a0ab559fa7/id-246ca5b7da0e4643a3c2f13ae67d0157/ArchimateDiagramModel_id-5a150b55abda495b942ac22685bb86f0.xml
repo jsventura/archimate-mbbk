@@ -656,22 +656,8 @@
             fillColor="#400040"
             content="7">
           <bounds
-              x="223"
-              y="360"
-              width="30"
-              height="32"/>
-        </children>
-        <children
-            xsi:type="archimate:DiagramModelNote"
-            id="id-0fc3331cf6d04b42abc5dd8b22541241"
-            font="1|Segoe UI|12.0|1|WINDOWS|1|-24|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-            fontColor="#ffffff"
-            textAlignment="1"
-            fillColor="#400040"
-            content="8">
-          <bounds
               x="180"
-              y="156"
+              y="204"
               width="30"
               height="32"/>
         </children>
@@ -732,6 +718,20 @@
         <bounds
             x="300"
             y="204"
+            width="30"
+            height="32"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelNote"
+          id="id-0fc3331cf6d04b42abc5dd8b22541241"
+          font="1|Segoe UI|12.0|1|WINDOWS|1|-24|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          textAlignment="1"
+          fillColor="#400040"
+          content="8">
+        <bounds
+            x="300"
+            y="516"
             width="30"
             height="32"/>
       </children>
@@ -1208,7 +1208,7 @@
       id="id-f4f83e4e3f924e94880f67f6d7dcaeb8"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Se selecciona la opción eliminar del favorito elegido del listado &#xD;&#xA;2. Se envía la otp&#xD;&#xA;3. Se guarda la operación en hazelcast. &#xD;&#xA;4. Se valida la otp&#xD;&#xA;5. Se elimina el favorito.&#xD;&#xA;6. Se remueve la operación del hazelcast&#xD;&#xA;7. Se envía la notificación del favorito eliminado">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Se selecciona la opción eliminar del favorito elegido del listado &#xD;&#xA;2. Se envía la otp&#xD;&#xA;3. Se guarda la operación en hazelcast. &#xD;&#xA;4. Se confirma la eliminación del favorito&#xD;&#xA;5. Se valida la otp&#xD;&#xA;6. Se elimina el favorito.&#xD;&#xA;7. Se remueve la operación del hazelcast&#xD;&#xA;8. Se envía la notificación del favorito eliminado">
     <bounds
         x="2184"
         y="216"

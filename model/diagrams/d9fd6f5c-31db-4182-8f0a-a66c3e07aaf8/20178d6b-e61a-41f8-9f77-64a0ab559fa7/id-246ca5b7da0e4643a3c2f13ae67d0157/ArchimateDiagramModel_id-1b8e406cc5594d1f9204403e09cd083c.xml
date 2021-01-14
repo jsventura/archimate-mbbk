@@ -271,15 +271,6 @@
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b680c249c3b8481392fc557dc7e74956"
           targetConnections="id-b9a8570f80a6478c934cbe5923eb48f4 id-130f3c76923c4caa9991338da8e03af7">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-789f3c606ebe4b6bba1ec19530e2af9a"
-            source="id-b680c249c3b8481392fc557dc7e74956"
-            target="id-01d84c2b56084d4aae1eb517078a2477">
-          <archimateRelationship
-              xsi:type="archimate:ServingRelationship"
-              href="ServingRelationship_id-ccc233cd843c417492cea0ea2fb1b47f.xml#id-ccc233cd843c417492cea0ea2fb1b47f"/>
-        </sourceConnections>
         <bounds
             x="36"
             y="96"
@@ -297,6 +288,15 @@
             <archimateRelationship
                 xsi:type="archimate:RealizationRelationship"
                 href="RealizationRelationship_id-ef44673300b547acab359be8aec4c3da.xml#id-ef44673300b547acab359be8aec4c3da"/>
+          </sourceConnections>
+          <sourceConnections
+              xsi:type="archimate:DiagramModelArchimateConnection"
+              id="id-c10d7892c1ef46f9bec137b55d0e079b"
+              source="id-776d269178274cdf812ddf365d8057d5"
+              target="id-4ffb60552a8d4e2c8cf02c95d772965c">
+            <archimateRelationship
+                xsi:type="archimate:AccessRelationship"
+                href="AccessRelationship_id-7bd610fcbf14400fa1e5193085015436.xml#id-7bd610fcbf14400fa1e5193085015436"/>
           </sourceConnections>
           <bounds
               x="48"
@@ -589,17 +589,17 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-01d84c2b56084d4aae1eb517078a2477"
-          targetConnections="id-502ab5f557d14f68ad8e65db9dbfa064 id-789f3c606ebe4b6bba1ec19530e2af9a"
+          targetConnections="id-502ab5f557d14f68ad8e65db9dbfa064"
           font="1|Segoe UI Semibold|10.0|0|WINDOWS|1|-20|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#00ffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-1862188643a04141bf0a2af182ca65ae"
+            id="id-9df154f941684a12b3d58daa5b739e21"
             source="id-01d84c2b56084d4aae1eb517078a2477"
-            target="id-cc86ab13b6264ab69c8b83a2822fe867">
+            target="id-4ffb60552a8d4e2c8cf02c95d772965c">
           <archimateRelationship
               xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-b533fada3cc04358a64b35860c697d6f.xml#id-b533fada3cc04358a64b35860c697d6f"/>
+              href="AccessRelationship_id-5e50cd39308b47fc8ba77d1886ff308e.xml#id-5e50cd39308b47fc8ba77d1886ff308e"/>
         </sourceConnections>
         <bounds
             x="24"
@@ -608,17 +608,16 @@
             height="169"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-cc86ab13b6264ab69c8b83a2822fe867"
-            targetConnections="id-1862188643a04141bf0a2af182ca65ae"
-            fillColor="#00ffff">
+            id="id-4ffb60552a8d4e2c8cf02c95d772965c"
+            targetConnections="id-9df154f941684a12b3d58daa5b739e21 id-c10d7892c1ef46f9bec137b55d0e079b">
           <bounds
               x="24"
-              y="48"
-              width="133"
+              y="60"
+              width="120"
               height="55"/>
           <archimateElement
               xsi:type="archimate:DataObject"
-              href="DataObject_id-b9ca9d3fdbb344419c66340a2e69e8ad.xml#id-b9ca9d3fdbb344419c66340a2e69e8ad"/>
+              href="DataObject_id-bbfbb96f22534974920a365ece092c7a.xml#id-bbfbb96f22534974920a365ece092c7a"/>
         </children>
         <archimateElement
             xsi:type="archimate:SystemSoftware"
@@ -780,7 +779,7 @@
       id="id-4ca6920a76704ad1b47429dc73514a79"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Se lista los dispositivos vinculados&#xD;&#xA;&#xD;&#xA;2. Se afilia el dispositivo&#xD;&#xA;&#xD;&#xA;3. Se envia por mensaje de texto notificacion de afiliación de dispositivo">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Registra el favorito&#xD;&#xA;&#xD;&#xA;2. Obtiene las clasificacion de la transacciòn&#xD;&#xA;&#xD;&#xA;3. Se envia por mensaje de texto notificacion del registro de favorito">
     <bounds
         x="2026"
         y="-62"
