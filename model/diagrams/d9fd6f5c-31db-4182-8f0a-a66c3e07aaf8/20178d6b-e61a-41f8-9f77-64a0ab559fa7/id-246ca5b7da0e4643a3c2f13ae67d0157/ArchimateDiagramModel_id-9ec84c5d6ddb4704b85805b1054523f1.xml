@@ -246,6 +246,15 @@
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_id-3779c3f79688462bbfab013731e0d361.xml#id-3779c3f79688462bbfab013731e0d361"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-796c565c96f646c68361afbd1cdf5a6a"
+          source="id-66594c2c2acc494db6ef294f5e15ec39"
+          target="id-43a366143b1c44788fc9a71bcc186517">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-593db93a56b5486297ea198698fe53fc.xml#id-593db93a56b5486297ea198698fe53fc"/>
+      </sourceConnections>
       <bounds
           x="1056"
           y="197"
@@ -301,7 +310,7 @@
           <children
               xsi:type="archimate:DiagramModelArchimateObject"
               id="id-8d6fdea264874b77a655ef78445fd64e"
-              targetConnections="id-b8dc9bd60b104eb8b9413f342eac6960 id-77cb735e99b14b849618af9c45197ea9"
+              targetConnections="id-b8dc9bd60b104eb8b9413f342eac6960 id-77cb735e99b14b849618af9c45197ea9 id-a74cd2cdcb31400db2e1b0035f27387c"
               fillColor="#80ff80">
             <sourceConnections
                 xsi:type="archimate:DiagramModelArchimateConnection"
@@ -369,6 +378,29 @@
         <archimateElement
             xsi:type="archimate:ApplicationService"
             href="ApplicationService_id-d4bbf91a8c984049aec2c23b207e97ee.xml#id-d4bbf91a8c984049aec2c23b207e97ee"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-43a366143b1c44788fc9a71bcc186517"
+          targetConnections="id-796c565c96f646c68361afbd1cdf5a6a"
+          fillColor="#00ffff">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-457f6966683f4e58be5cb58a7fcc7766"
+            source="id-43a366143b1c44788fc9a71bcc186517"
+            target="id-5bb28ed1368f455f8d6d14fffc72d989">
+          <archimateRelationship
+              xsi:type="archimate:ServingRelationship"
+              href="ServingRelationship_id-c59c7b901cee4ce792ef52108db82daa.xml#id-c59c7b901cee4ce792ef52108db82daa"/>
+        </sourceConnections>
+        <bounds
+            x="120"
+            y="444"
+            width="204"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationService"
+            href="ApplicationService_id-b769643ed66a4780a6dd5312d1282820.xml#id-b769643ed66a4780a6dd5312d1282820"/>
       </children>
       <archimateElement
           xsi:type="archimate:Grouping"
@@ -1074,6 +1106,25 @@
                   xsi:type="archimate:ServingRelationship"
                   href="ServingRelationship_id-335505848b5a4a1aaab87bea7a13d79d.xml#id-335505848b5a4a1aaab87bea7a13d79d"/>
             </sourceConnections>
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-a74cd2cdcb31400db2e1b0035f27387c"
+                source="id-4f7fcafa9ad0497c81083b2448bdb7a9"
+                target="id-8d6fdea264874b77a655ef78445fd64e">
+              <bendpoints
+                  startX="552"
+                  startY="-17"
+                  endX="-184"
+                  endY="915"/>
+              <bendpoints
+                  startX="552"
+                  startY="-917"
+                  endX="-184"
+                  endY="15"/>
+              <archimateRelationship
+                  xsi:type="archimate:TriggeringRelationship"
+                  href="TriggeringRelationship_id-5c25efad14a249bb921195b87845e54b.xml#id-5c25efad14a249bb921195b87845e54b"/>
+            </sourceConnections>
             <bounds
                 x="12"
                 y="48"
@@ -1504,7 +1555,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5bb28ed1368f455f8d6d14fffc72d989"
-          targetConnections="id-3f9d4fced20144d4a58be4011707dec0 id-c3051a17f51e48d495a6c04016ab5e0b"
+          targetConnections="id-3f9d4fced20144d4a58be4011707dec0 id-c3051a17f51e48d495a6c04016ab5e0b id-457f6966683f4e58be5cb58a7fcc7766"
           font="1|Segoe UI Semibold|10.0|0|WINDOWS|1|-20|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#00ffff">
         <sourceConnections
