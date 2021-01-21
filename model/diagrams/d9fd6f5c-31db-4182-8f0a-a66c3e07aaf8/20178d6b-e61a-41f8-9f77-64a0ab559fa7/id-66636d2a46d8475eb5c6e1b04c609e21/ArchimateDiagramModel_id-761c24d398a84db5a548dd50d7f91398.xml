@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="View of functional architecture of Olvidé usuario (Cambio de clave) end to end"
+    name="View of functional architecture of Olvidé usuario (Cambio de clave con tarjeta) end to end"
     id="id-761c24d398a84db5a548dd50d7f91398">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -432,15 +432,6 @@
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-a05af927868347b5a04132f4e119eedf"
           targetConnections="id-a5a8777a5fc44b159cc3830930dc42c1 id-91b831cea097453fa494028002f5b794 id-85cea1daedc1498d86a0d0058d82e7be">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-9bb7b5c9f53b441d9386f247391ec799"
-            source="id-a05af927868347b5a04132f4e119eedf"
-            target="id-9ef8ac59784548bf97b6ec6e921d5e60">
-          <archimateRelationship
-              xsi:type="archimate:ServingRelationship"
-              href="ServingRelationship_id-b0fc97e266d34523a8fee8c5a8b23052.xml#id-b0fc97e266d34523a8fee8c5a8b23052"/>
-        </sourceConnections>
         <bounds
             x="24"
             y="612"
@@ -466,6 +457,15 @@
             <archimateRelationship
                 xsi:type="archimate:ServingRelationship"
                 href="ServingRelationship_id-8ad9d1bd25dc49f7b66c0ad15613ed76.xml#id-8ad9d1bd25dc49f7b66c0ad15613ed76"/>
+          </sourceConnections>
+          <sourceConnections
+              xsi:type="archimate:DiagramModelArchimateConnection"
+              id="id-9bb7b5c9f53b441d9386f247391ec799"
+              source="id-024599ee5da74062bcaebaba92a16922"
+              target="id-9ef8ac59784548bf97b6ec6e921d5e60">
+            <archimateRelationship
+                xsi:type="archimate:ServingRelationship"
+                href="ServingRelationship_id-b0fc97e266d34523a8fee8c5a8b23052.xml#id-b0fc97e266d34523a8fee8c5a8b23052"/>
           </sourceConnections>
           <bounds
               x="24"
@@ -925,7 +925,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-9ef8ac59784548bf97b6ec6e921d5e60"
-          targetConnections="id-185107b505ae4207b41b25621a381617 id-9bb7b5c9f53b441d9386f247391ec799 id-6977307a5b714e57b75965464a72e55c id-8549cf9c62524588a113b2101147244d id-35e1e9fa8bec429e9d6bf5025529f4f1 id-8620661e64ef4b05a5e114982ec25de6"
+          targetConnections="id-185107b505ae4207b41b25621a381617 id-6977307a5b714e57b75965464a72e55c id-8549cf9c62524588a113b2101147244d id-35e1e9fa8bec429e9d6bf5025529f4f1 id-8620661e64ef4b05a5e114982ec25de6 id-9bb7b5c9f53b441d9386f247391ec799"
           fillColor="#00ffff"
           textPosition="1">
         <bounds
