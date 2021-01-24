@@ -210,26 +210,17 @@
                 source="id-7cfca969d761452ea33d89248d2f9e0b"
                 target="id-97beb761fca049e29b9bde76bff0d20a">
               <bendpoints
-                  startX="92"
-                  startY="-234"
-                  endX="90"
-                  endY="230"/>
+                  startX="188"
+                  startY="4"
+                  endX="137"
+                  endY="756"/>
+              <bendpoints
+                  startX="188"
+                  startY="-752"
+                  endX="137"/>
               <archimateRelationship
                   xsi:type="archimate:ServingRelationship"
                   href="ServingRelationship_id-bd58aa6d22674fa994533f4f7b5a1009.xml#id-bd58aa6d22674fa994533f4f7b5a1009"/>
-            </sourceConnections>
-            <sourceConnections
-                xsi:type="archimate:DiagramModelArchimateConnection"
-                id="id-682d0ff8414c4b44975ae76a5a5377d6"
-                source="id-7cfca969d761452ea33d89248d2f9e0b"
-                target="id-c22241ffcdd6489ea0961b7eda5030cc">
-              <bendpoints
-                  startX="-88"
-                  startY="-126"
-                  endY="142"/>
-              <archimateRelationship
-                  xsi:type="archimate:ServingRelationship"
-                  href="ServingRelationship_id-efee081c08d34235908570b29368827e.xml#id-efee081c08d34235908570b29368827e"/>
             </sourceConnections>
             <bounds
                 x="24"
@@ -267,15 +258,6 @@
           targetConnections="id-aa84cea85c554018a3ea621c6ef05c26 id-d69c93ee5b804d7491fd21ec15b194cb"
           font="1|Segoe UI Semibold|10.2|0|WINDOWS|1|-17|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#00ffff">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-47b9f1fbde4c47b6ae6fee3b4bd27a21"
-            source="id-383a5ad55a924db0bea74e03a04eda4a"
-            target="id-9ea56b4ea80c48d492a51d753596f1af">
-          <archimateRelationship
-              xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-7e038bab43db45acb8aec6ee5263fe54.xml#id-7e038bab43db45acb8aec6ee5263fe54"/>
-        </sourceConnections>
         <bounds
             x="36"
             y="72"
@@ -322,6 +304,15 @@
               id="id-16ea4e33867c4315ad062309601668b5"
               targetConnections="id-0f6c99430c9442eead8bc8284f05a4bb id-eb7321f8fef04a01b444bd00820daf33"
               fillColor="#00ffff">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-11379b5bc19f481cbd2293d258fd4c52"
+                source="id-16ea4e33867c4315ad062309601668b5"
+                target="id-accb1c093cd24363be6f6c2f7b3283ec">
+              <archimateRelationship
+                  xsi:type="archimate:AccessRelationship"
+                  href="AccessRelationship_id-d5c1589c1ffc4d3bb7f43204db436307.xml#id-d5c1589c1ffc4d3bb7f43204db436307"/>
+            </sourceConnections>
             <bounds
                 x="24"
                 y="48"
@@ -336,6 +327,15 @@
               id="id-e4125a9da16f47cea5db299c325b0465"
               targetConnections="id-fd2d717cbc55428da85b7c882d81b52f id-17a1fe0a67c64d999cc7526e30382bc1"
               fillColor="#00ffff">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-4c2fa4c1cb3749bc8bf9c5b3a1a42528"
+                source="id-e4125a9da16f47cea5db299c325b0465"
+                target="id-accb1c093cd24363be6f6c2f7b3283ec">
+              <archimateRelationship
+                  xsi:type="archimate:AccessRelationship"
+                  href="AccessRelationship_id-865438b9938740a88feaaad025b56f70.xml#id-865438b9938740a88feaaad025b56f70"/>
+            </sourceConnections>
             <bounds
                 x="24"
                 y="156"
@@ -442,19 +442,10 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-c22241ffcdd6489ea0961b7eda5030cc"
-          targetConnections="id-51299ec5eee24084a6695446e0d40154 id-682d0ff8414c4b44975ae76a5a5377d6"
+          targetConnections="id-51299ec5eee24084a6695446e0d40154"
           font="1|Segoe UI Semibold|10.0|0|WINDOWS|1|-20|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#ff0000"
           textPosition="1">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-ebcd34ab9e1941f390f3adf27c5772f5"
-            source="id-c22241ffcdd6489ea0961b7eda5030cc"
-            target="id-97beb761fca049e29b9bde76bff0d20a">
-          <archimateRelationship
-              xsi:type="archimate:ServingRelationship"
-              href="ServingRelationship_id-9a16c116c7c24211b9021f5e4c7ce4eb.xml#id-9a16c116c7c24211b9021f5e4c7ce4eb"/>
-        </sourceConnections>
         <bounds
             x="336"
             y="48"
@@ -634,7 +625,7 @@
           content="DB - Multicanal">
         <bounds
             x="24"
-            y="228"
+            y="132"
             width="121"
             height="25"/>
       </children>
@@ -646,31 +637,30 @@
           fillColor="#00ffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-ba433486ffbd40fdba9737e33e21ddee"
+            id="id-bc4fbf797d5e42dd95ee80428d77369d"
             source="id-eb652e0b0fb849e980f7e5b9a31bdc4b"
-            target="id-9ea56b4ea80c48d492a51d753596f1af">
+            target="id-accb1c093cd24363be6f6c2f7b3283ec">
           <archimateRelationship
               xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-b533fada3cc04358a64b35860c697d6f.xml#id-b533fada3cc04358a64b35860c697d6f"/>
+              href="AccessRelationship_id-bd52d62e94a74bcfb12f735f2188a2fb.xml#id-bd52d62e94a74bcfb12f735f2188a2fb"/>
         </sourceConnections>
         <bounds
             x="24"
-            y="252"
+            y="156"
             width="181"
             height="169"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-9ea56b4ea80c48d492a51d753596f1af"
-            targetConnections="id-ba433486ffbd40fdba9737e33e21ddee id-47b9f1fbde4c47b6ae6fee3b4bd27a21"
-            fillColor="#00ffff">
+            id="id-accb1c093cd24363be6f6c2f7b3283ec"
+            targetConnections="id-11379b5bc19f481cbd2293d258fd4c52 id-bc4fbf797d5e42dd95ee80428d77369d id-4c2fa4c1cb3749bc8bf9c5b3a1a42528">
           <bounds
               x="24"
-              y="48"
+              y="60"
               width="133"
-              height="55"/>
+              height="73"/>
           <archimateElement
               xsi:type="archimate:DataObject"
-              href="DataObject_id-b9ca9d3fdbb344419c66340a2e69e8ad.xml#id-b9ca9d3fdbb344419c66340a2e69e8ad"/>
+              href="DataObject_id-5b892226a1554c93a50db26eb6e4e241.xml#id-5b892226a1554c93a50db26eb6e4e241"/>
         </children>
         <archimateElement
             xsi:type="archimate:SystemSoftware"
@@ -824,12 +814,12 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-97beb761fca049e29b9bde76bff0d20a"
-        targetConnections="id-d59922cd13524ae694df64717c1369d5 id-ebcd34ab9e1941f390f3adf27c5772f5 id-f818ecfb6ab240a6bdda4a93d5d2a072"
+        targetConnections="id-d59922cd13524ae694df64717c1369d5 id-f818ecfb6ab240a6bdda4a93d5d2a072"
         font="1|Segoe UI Semibold|10.0|0|WINDOWS|1|-20|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
         fillColor="#80ff80"
         textPosition="1">
       <bounds
-          x="576"
+          x="624"
           y="48"
           width="182"
           height="36"/>
@@ -846,12 +836,12 @@
       id="id-defb9cb2699849f8a983c36d680b86e9"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Se lista los dispositivos vinculados&#xD;&#xA;&#xD;&#xA;2. Se desafilia el dispositivo&#xD;&#xA;&#xD;&#xA;3. Se envia por mensaje de texto notificacion de desafiliación de dispositivo">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Se lista los dispositivos vinculados&#xD;&#xA;&#xD;&#xA;2. Se desafilia el dispositivo&#xD;&#xA;&#xD;&#xA;3. Se envia por mensaje de texto notificacion de desafiliación de dispositivo&#xD;&#xA;&#xD;&#xA;* La prioridad del envio del SMS estará registrada en un archivo propertie">
     <bounds
         x="2016"
         y="-72"
         width="181"
-        height="149"/>
+        height="181"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
