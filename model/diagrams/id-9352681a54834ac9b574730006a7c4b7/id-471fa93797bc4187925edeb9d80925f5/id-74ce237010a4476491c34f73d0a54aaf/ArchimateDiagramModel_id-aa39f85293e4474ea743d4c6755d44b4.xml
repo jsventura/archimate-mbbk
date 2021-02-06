@@ -211,10 +211,20 @@
                 name="labelExpression"
                 value="SOAP/XML"/>
             <bendpoints
-                startX="366"
-                startY="510"
-                endX="-60"
-                endY="-300"/>
+                startX="348"
+                startY="199"
+                endX="-233"
+                endY="-410"/>
+            <bendpoints
+                startX="348"
+                startY="499"
+                endX="-233"
+                endY="-110"/>
+            <bendpoints
+                startX="564"
+                startY="498"
+                endX="-18"
+                endY="-110"/>
             <archimateRelationship
                 xsi:type="archimate:AssociationRelationship"
                 href="AssociationRelationship_id-e741808bb20846a29e85e74a8dd5e643.xml#id-e741808bb20846a29e85e74a8dd5e643"/>
@@ -1011,7 +1021,7 @@
       <bounds
           x="24"
           y="948"
-          width="1225"
+          width="1105"
           height="217"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -1035,7 +1045,7 @@
             source="id-40ebb92499e04a2eab80e8e37f532241"
             target="id-ca040dd28cb946c8857de324e3158bdb"/>
         <bounds
-            x="984"
+            x="864"
             y="48"
             width="204"
             height="144"/>
@@ -1092,7 +1102,7 @@
           content="HN: SWEBSBFPR01&#xD;&#xA;172.16.1.63&#xD;&#xA;Port: XXXX&#xD;&#xA;OS: MS Windows Server 2003 SE (32-bit)&#xD;&#xA;WS: IIS 6.0"
           textPosition="1">
         <bounds
-            x="816"
+            x="696"
             y="71"
             width="138"
             height="97"/>
@@ -1198,14 +1208,14 @@
             href="AggregationRelationship_id-48e493370cd8497c85711b5ac94a76a5.xml#id-48e493370cd8497c85711b5ac94a76a5"/>
       </sourceConnections>
       <bounds
-          x="1284"
+          x="1140"
           y="948"
-          width="205"
+          width="409"
           height="217"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cdf53c250d1b4946a2478e82d23c964e"
-          targetConnections="id-acb12d7454784fdcbf1a86f8a1ef0836 id-10d4dca99b9d4b4582a71f1c015a372e">
+          targetConnections="id-acb12d7454784fdcbf1a86f8a1ef0836 id-10d4dca99b9d4b4582a71f1c015a372e id-1f76fa918be8433d8717c79c221a0c93">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-20ada6f0884b4d6b8589612bee19d262"
@@ -1218,7 +1228,7 @@
               href="AssociationRelationship_id-2f0b148d6d5441dc93d8cd3a381836fb.xml#id-2f0b148d6d5441dc93d8cd3a381836fb"/>
         </sourceConnections>
         <bounds
-            x="48"
+            x="252"
             y="72"
             width="120"
             height="55"/>
@@ -1232,13 +1242,16 @@
           font="1|Segoe UI|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           textAlignment="1"
           fillColor="#ffffff"
-          content="NAT"
-          textPosition="1">
+          content="PRD IP NAT: 10.180.20.59&#xD;&#xA;PVT: 172.30.20.59&#xD;&#xA;PRD IP NAT: 10.180.20.60&#xD;&#xA;PVT: 172.30.20.60&#xD;&#xA;PRD IP NAT: 10.180.20.89&#xD;&#xA;PVT: 172.30.20.89&#xD;&#xA;PRD IP NAT: 10.180.20.88&#xD;&#xA;PVT: 172.30.20.88&#xD;&#xA;&#xD;&#xA;PEER: 35.237.61.136&#xD;&#xA;DESTINO: app.yellowpeper.com">
+        <sourceConnections
+            id="id-1f76fa918be8433d8717c79c221a0c93"
+            source="id-b9fcd857919c45e9817bdf2cc0c19b75"
+            target="id-cdf53c250d1b4946a2478e82d23c964e"/>
         <bounds
-            x="96"
-            y="132"
-            width="37"
-            height="37"/>
+            x="12"
+            y="36"
+            width="205"
+            height="157"/>
       </children>
       <archimateElement
           xsi:type="archimate:CommunicationNetwork"
@@ -1350,7 +1363,7 @@
         targetConnections="id-8eaf7e242ce44f958938b949189bb512 id-20ada6f0884b4d6b8589612bee19d262"
         fillColor="#80ff80">
       <bounds
-          x="42"
+          x="120"
           y="36"
           width="145"
           height="25"/>
