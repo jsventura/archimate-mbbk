@@ -1,0 +1,12 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Permite obtener los límites de transferencias por código de canal."
+    id="id-d1c701f59a684f74a22f6c360d632a26"
+    documentation="&#xD;&#xA;2. Permite obtener los limites de montos para realizar transacciones&#xD;&#xA;&#x9;Monto de transferencia&#xD;&#xA;&#x9;Tipo de moneda (codigo, nombre, simbolo)&#xD;&#xA;&#xD;&#xA;trama 3018 - Limites por canal">
+  <properties
+      key="endpoint"
+      value="http://transaction-authorization-v1-cal-jrvs-cal.jrvs-cal.svc.cluster.local:8080/cross-channel/transaction-authorization/v1.0/transaction-limits"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>

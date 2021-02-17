@@ -1,4 +1,12 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Permite obtener los parámetros de la aplicación"
-    id="id-b975c92c3f4c4dfe902dce0008ba95e0"/>
+    id="id-b975c92c3f4c4dfe902dce0008ba95e0"
+    documentation="3. Permite obtener los parametros de la aplicación&#xD;&#xA;&#x9;3.1 Información del listado de tipo de documentos&#xD;&#xA;&#x9;3.2 Configuración de transferencias interbancarias (hora de inicio, hora fin, tipo de transferencia _(inmediata/diferida)) ">
+  <properties
+      key="endpoint"
+      value="http://jsc-mbbk-user-preference-v1-des-mbbk-des.mbbk-des.svc.cluster.local:8080/support-channel/mbbk/v1.0/user-preference/parameters?parameterTable={parameterTable}"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>
