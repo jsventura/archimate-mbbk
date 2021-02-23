@@ -1,0 +1,11 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Permite obtener una colección de todos los movimientos de una tarjeta de crédito de un cliente por su número"
+    id="id-6c8e20a0686b4fc086322cd58ca5f248">
+  <properties
+      key="endpoint"
+      value="/cards/credit-charge-card/v2.0/credit-cards-transactions?cardNumber={cardNumber}&amp;type={type}&amp;limit={limit}"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>

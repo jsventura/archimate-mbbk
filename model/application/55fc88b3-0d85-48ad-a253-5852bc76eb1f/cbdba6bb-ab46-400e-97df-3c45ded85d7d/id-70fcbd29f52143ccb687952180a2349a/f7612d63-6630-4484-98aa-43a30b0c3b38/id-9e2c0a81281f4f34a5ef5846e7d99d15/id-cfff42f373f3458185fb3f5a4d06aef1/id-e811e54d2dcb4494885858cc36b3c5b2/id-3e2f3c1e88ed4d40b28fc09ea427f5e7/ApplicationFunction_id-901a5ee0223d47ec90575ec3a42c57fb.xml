@@ -1,0 +1,11 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Permite obtener los estados de cuenta de todas las tarjetas de crédito de un cliente del banco por su código"
+    id="id-901a5ee0223d47ec90575ec3a42c57fb">
+  <properties
+      key="endpoint"
+      value="/cards/credit-charge-card/v2.0/statement-credit-cards?personId={personId}"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>

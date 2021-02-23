@@ -1,0 +1,11 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Permite realizar la búsqueda de los datos de la última facturación de una tarjeta de crédito por su número"
+    id="id-c2940597053e45269edafc14f5d31de3">
+  <properties
+      key="endpoint"
+      value="/cards/credit-charge-card/v2.0/billing-credit-cards?cardNumber={cardNumber}"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>
