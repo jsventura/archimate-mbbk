@@ -1,4 +1,11 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Envío de la clave OTP al número celular del cliente y/o correo"
-    id="id-9c4c772855b64837a9b4f62ac909c983"/>
+    id="id-9c4c772855b64837a9b4f62ac909c983">
+  <properties
+      key="endpoint"
+      value="/channel/mbbk/v1.0/preference-security/dynamic-keys/send"/>
+  <properties
+      key="method"
+      value="POST"/>
+</archimate:ApplicationFunction>

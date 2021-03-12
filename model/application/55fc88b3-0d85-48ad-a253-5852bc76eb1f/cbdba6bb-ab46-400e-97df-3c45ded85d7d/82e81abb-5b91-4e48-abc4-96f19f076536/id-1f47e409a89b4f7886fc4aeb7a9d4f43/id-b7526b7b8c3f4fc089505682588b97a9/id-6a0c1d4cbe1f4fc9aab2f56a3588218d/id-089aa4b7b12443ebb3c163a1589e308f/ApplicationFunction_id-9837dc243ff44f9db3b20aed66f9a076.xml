@@ -1,4 +1,11 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Valida la autenticidad de la clave OTP previamente generada"
-    id="id-9837dc243ff44f9db3b20aed66f9a076"/>
+    id="id-9837dc243ff44f9db3b20aed66f9a076">
+  <properties
+      key="endpoint"
+      value="/channel/mbbk/v1.0/preference-security/dynamic-keys/validate"/>
+  <properties
+      key="method"
+      value="POST"/>
+</archimate:ApplicationFunction>
