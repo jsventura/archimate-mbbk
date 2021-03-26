@@ -1,4 +1,11 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Permite obtener la información de la cuenta del cliente"
-    id="id-9bbfc811de474099972e4e6398358b52"/>
+    id="id-9bbfc811de474099972e4e6398358b52">
+  <properties
+      key="endpoint"
+      value="/loans-deposits/personal-account/v2.0/accounts/{accountId}?$select=jointMember"/>
+  <properties
+      key="method"
+      value="GET"/>
+</archimate:ApplicationFunction>
