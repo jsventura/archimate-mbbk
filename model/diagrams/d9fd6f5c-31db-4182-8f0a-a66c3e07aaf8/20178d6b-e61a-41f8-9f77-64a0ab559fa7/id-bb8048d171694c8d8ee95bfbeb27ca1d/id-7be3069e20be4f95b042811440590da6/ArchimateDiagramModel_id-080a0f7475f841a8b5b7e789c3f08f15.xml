@@ -51,7 +51,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-dd8e3f9eca904d64b29d5be27bf6bb8d"
-          targetConnections="id-518fbaa3722b41368d0fdcc87fea6c9e id-51cdb71c4dca478fa7aca77c14b0fd3a id-74a93568092d45b88cb3da85232c98ae"
+          targetConnections="id-74a93568092d45b88cb3da85232c98ae id-51cdb71c4dca478fa7aca77c14b0fd3a id-518fbaa3722b41368d0fdcc87fea6c9e"
           font="1|Segoe UI Semibold|10.2|0|WINDOWS|1|-17|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#00ffff">
         <bounds
@@ -65,21 +65,21 @@
             fillColor="#00ffff">
           <sourceConnections
               xsi:type="archimate:DiagramModelArchimateConnection"
-              id="id-51cdb71c4dca478fa7aca77c14b0fd3a"
-              source="id-1baf0fa18965408bbfb578f5f1f2163c"
-              target="id-dd8e3f9eca904d64b29d5be27bf6bb8d">
-            <archimateRelationship
-                xsi:type="archimate:RealizationRelationship"
-                href="RealizationRelationship_id-86958570ee7e409fa890e540a509908b.xml#id-86958570ee7e409fa890e540a509908b"/>
-          </sourceConnections>
-          <sourceConnections
-              xsi:type="archimate:DiagramModelArchimateConnection"
               id="id-63e45b6ba70c434d9e758455b10a7f02"
               source="id-1baf0fa18965408bbfb578f5f1f2163c"
               target="id-bc2c214292144a0298a1ed546f8dd477">
             <archimateRelationship
                 xsi:type="archimate:CompositionRelationship"
                 href="CompositionRelationship_id-931342629dd7445891466d16ca59f421.xml#id-931342629dd7445891466d16ca59f421"/>
+          </sourceConnections>
+          <sourceConnections
+              xsi:type="archimate:DiagramModelArchimateConnection"
+              id="id-51cdb71c4dca478fa7aca77c14b0fd3a"
+              source="id-1baf0fa18965408bbfb578f5f1f2163c"
+              target="id-dd8e3f9eca904d64b29d5be27bf6bb8d">
+            <archimateRelationship
+                xsi:type="archimate:RealizationRelationship"
+                href="RealizationRelationship_id-86958570ee7e409fa890e540a509908b.xml#id-86958570ee7e409fa890e540a509908b"/>
           </sourceConnections>
           <bounds
               x="48"
@@ -89,8 +89,17 @@
           <children
               xsi:type="archimate:DiagramModelArchimateObject"
               id="id-bc2c214292144a0298a1ed546f8dd477"
-              targetConnections="id-63e45b6ba70c434d9e758455b10a7f02 id-df875198663d42a9ace5a2dcb3bbf56a"
+              targetConnections="id-df875198663d42a9ace5a2dcb3bbf56a id-63e45b6ba70c434d9e758455b10a7f02"
               fillColor="#00ffff">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-b9be1f965fdc48e69d4af51faa8eca21"
+                source="id-bc2c214292144a0298a1ed546f8dd477"
+                target="id-3df362bbc42e4727806e1fb1b03d87fc">
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-50d1d996a61a41ceab751250874a3ee5.xml#id-50d1d996a61a41ceab751250874a3ee5"/>
+            </sourceConnections>
             <sourceConnections
                 xsi:type="archimate:DiagramModelArchimateConnection"
                 id="id-9e8449e3d9b04d75bb7ebd961d9cb450"
@@ -104,15 +113,6 @@
               <archimateRelationship
                   xsi:type="archimate:ServingRelationship"
                   href="ServingRelationship_id-ed3edc02384840f7bd6e3f2754d89bd7.xml#id-ed3edc02384840f7bd6e3f2754d89bd7"/>
-            </sourceConnections>
-            <sourceConnections
-                xsi:type="archimate:DiagramModelArchimateConnection"
-                id="id-b9be1f965fdc48e69d4af51faa8eca21"
-                source="id-bc2c214292144a0298a1ed546f8dd477"
-                target="id-3df362bbc42e4727806e1fb1b03d87fc">
-              <archimateRelationship
-                  xsi:type="archimate:ServingRelationship"
-                  href="ServingRelationship_id-50d1d996a61a41ceab751250874a3ee5.xml#id-50d1d996a61a41ceab751250874a3ee5"/>
             </sourceConnections>
             <bounds
                 x="24"

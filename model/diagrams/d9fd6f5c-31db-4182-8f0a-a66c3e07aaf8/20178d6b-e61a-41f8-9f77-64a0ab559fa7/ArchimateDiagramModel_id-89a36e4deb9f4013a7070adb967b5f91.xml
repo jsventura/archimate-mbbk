@@ -566,6 +566,20 @@
                 xsi:type="archimate:ApplicationFunction"
                 href="ApplicationFunction_id-054e76602b9144309b20ec7421a794c9.xml#id-054e76602b9144309b20ec7421a794c9"/>
           </children>
+          <children
+              xsi:type="archimate:DiagramModelNote"
+              id="id-4b825f3ed240490c92a8986fb7ef698f"
+              font="1|Segoe UI|12.0|1|WINDOWS|1|-24|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+              fontColor="#ffffff"
+              textAlignment="1"
+              fillColor="#400040"
+              content="1">
+            <bounds
+                x="36"
+                y="24"
+                width="30"
+                height="32"/>
+          </children>
           <archimateElement
               xsi:type="archimate:ApplicationFunction"
               href="ApplicationFunction_id-73f47c434afc4473aafcc9d89761a30e.xml#id-73f47c434afc4473aafcc9d89761a30e"/>
@@ -628,7 +642,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-678a2a3f0020433cb2d922f81515d7f9"
-          targetConnections="id-0698841042bf4919af8e0eaef4e3381a"
+          targetConnections="id-0698841042bf4919af8e0eaef4e3381a id-051dba445a3346189b816b743364f357"
           fillColor="#00ffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1007,11 +1021,44 @@
             targetConnections="id-fe9fb106dc8c463fbd7cef88eed1de83"
             fillColor="#00ffff"
             type="1">
+          <sourceConnections
+              xsi:type="archimate:DiagramModelArchimateConnection"
+              id="id-26374e9de4c740c6ba4cdcf4d8cde6d8"
+              source="id-79972a341dde4c9d8e3a56155eae4d89"
+              target="id-215de96ffd7944b784c4499eaf9572e1">
+            <archimateRelationship
+                xsi:type="archimate:CompositionRelationship"
+                href="CompositionRelationship_id-0eb9340209c14491a6d1cdcf0882bd19.xml#id-0eb9340209c14491a6d1cdcf0882bd19"/>
+          </sourceConnections>
           <bounds
               x="12"
               y="84"
               width="133"
               height="577"/>
+          <children
+              xsi:type="archimate:DiagramModelArchimateObject"
+              id="id-215de96ffd7944b784c4499eaf9572e1"
+              targetConnections="id-26374e9de4c740c6ba4cdcf4d8cde6d8"
+              fillColor="#00ffff"
+              type="1">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-051dba445a3346189b816b743364f357"
+                source="id-215de96ffd7944b784c4499eaf9572e1"
+                target="id-678a2a3f0020433cb2d922f81515d7f9">
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-8e60b36e944e4c99a55744efa2825d08.xml#id-8e60b36e944e4c99a55744efa2825d08"/>
+            </sourceConnections>
+            <bounds
+                x="12"
+                y="96"
+                width="109"
+                height="373"/>
+            <archimateElement
+                xsi:type="archimate:ApplicationComponent"
+                href="ApplicationComponent_id-a8d1f27169904f4da3c1b1c69fe9c828.xml#id-a8d1f27169904f4da3c1b1c69fe9c828"/>
+          </children>
           <archimateElement
               xsi:type="archimate:ApplicationComponent"
               href="ApplicationComponent_id-843e3a0d02ca49c69e45accd44b37d93.xml#id-843e3a0d02ca49c69e45accd44b37d93"/>
@@ -1030,7 +1077,7 @@
       id="id-584734cb4b3f4b17af919233252f836d"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;A Esta funcionalidad permite consultar los productos que no estén canceladas del cliente.&#xD;&#xA;B Esta funcionalidad permite consultar el tipo de cambio de divisas del Cliente para realizar transacciones dentro de la Banca Móvil.&#xD;&#xA;C Actualiza información de las configuraciones de preferencias del usuario&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Esta funcionalidad permite al usuario registrar como favorita una transacción realizada&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
     <bounds
         x="2360"
         y="270"
