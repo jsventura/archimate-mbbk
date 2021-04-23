@@ -1361,7 +1361,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-77ddc0a7565c4e91a05462abda0f5a5a"
-          targetConnections="id-e0b5b1b79f8a4d7f97ab89df46a118cd id-a9cdb181f4e6416ca6ea1e40532799ce id-806cf94c879c45a8bb3a023d17437e2c"
+          targetConnections="id-e0b5b1b79f8a4d7f97ab89df46a118cd id-a9cdb181f4e6416ca6ea1e40532799ce id-806cf94c879c45a8bb3a023d17437e2c id-66428e14517f44858733fb530fe8d02c"
           fillColor="#00ffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1622,6 +1622,15 @@
               id="id-0b40a8cbd4104d3e9331761cf231896e"
               targetConnections="id-f80328520ce243eb9d28da9242d5474f id-fc4dfda0651e4dfabd8e8378cd993453"
               fillColor="#00ffff">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-66428e14517f44858733fb530fe8d02c"
+                source="id-0b40a8cbd4104d3e9331761cf231896e"
+                target="id-77ddc0a7565c4e91a05462abda0f5a5a">
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-61ff31a4922e46b9be383e1ba2f035ff.xml#id-61ff31a4922e46b9be383e1ba2f035ff"/>
+            </sourceConnections>
             <bounds
                 x="24"
                 y="36"
@@ -1794,7 +1803,7 @@
       id="id-9d5456a537334f7497e215c126930c25"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Esta funcionalidad permite consultar los parámetros necesarion para realizar transferencias diferidas e inmediatas a otros bancos. Mediante los siguientes parámetros el cliente verifica el horario para realizar sus transacciones a otros bancos, la lista de bancos disponibles, Tipo de documento de la persona a quien se le va a realizar la transferencia y limites para realizarla transacción.&#xD;&#xA;&#xD;&#xA;2.">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Esta funcionalidad permite consultar los parámetros necesariopara realizar los pagos de servicios del Banco Pichincha. Mediante los siguinetes parámetros el cliente verifica los límites de montos para realizar la transacción.&#xD;&#xA;&#xD;&#xA;2. Esta funcionalidad permite obtener la configuracion de un producto, listado de parámetros y reglas para consultar las deudas para un producto o servicio.&#xD;&#xA;&#xD;&#xA;3. Esta funcionalidad permite ejecutar la pre-visualización de una recarga de celulares, enviando la siguiente informacion: código de producto, identificador de configuración de servicio, número de cuenta, monto de recarga, modena de transacción y el listado de parámetros que incluye el número de celular de la recarga.">
     <bounds
         x="2316"
         y="276"

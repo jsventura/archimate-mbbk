@@ -992,7 +992,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-dea634e77068486d9dc2e36decac6f52"
-          targetConnections="id-05f1ce4ace394c52bde2aa203a9b3090 id-b34046f2688b438ab250a795ec20a2bb"
+          targetConnections="id-05f1ce4ace394c52bde2aa203a9b3090 id-b34046f2688b438ab250a795ec20a2bb id-c67a3774207b4127a645845c45c92854"
           fillColor="#00ffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1272,6 +1272,15 @@
               id="id-f3d5c57f0b554b69853b5b3f72bb319b"
               targetConnections="id-f68a0ed5ec6b4f96ae7b277d047d32ed id-1daa04ad94fd4b18934fdf0fb9e8e314"
               fillColor="#00ffff">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-c67a3774207b4127a645845c45c92854"
+                source="id-f3d5c57f0b554b69853b5b3f72bb319b"
+                target="id-dea634e77068486d9dc2e36decac6f52">
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-99d739b1c621449982f982e7a4cd21ed.xml#id-99d739b1c621449982f982e7a4cd21ed"/>
+            </sourceConnections>
             <bounds
                 x="24"
                 y="36"
@@ -1435,7 +1444,7 @@
       id="id-31ecb2ce70f0442baf396debd0b4c8b6"
       font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Esta funcionalidad permite consultar los parámetros necesarion para realizar transferencias diferidas e inmediatas a otros bancos. Mediante los siguientes parámetros el cliente verifica el horario para realizar sus transacciones a otros bancos, la lista de bancos disponibles, Tipo de documento de la persona a quien se le va a realizar la transferencia y limites para realizarla transacción.&#xD;&#xA;&#xD;&#xA;2.">
+      content="Descripción funcional:&#xD;&#xA;&#xD;&#xA;1. Esta funcionalidad permite ejecutar el pago de un servicio de los clientes con los datos que se pbtienen de la caché. A su vez se requiere la ejecución de la previsualización del pago de servicios para almacenar los datos en caché.">
     <bounds
         x="2316"
         y="276"
