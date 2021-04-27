@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="View of functional architecture of Olvidé usuario / 5 validar actualizar datos de contacto end2end A-Is"
+    name="View of functional architecture of Olvidé usuario / 5 Actualizar datos de contacto end2end A-Is"
     id="id-1682ddb0b31c475da69b50b03e755236">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -382,21 +382,21 @@
             fillColor="#00ffff">
           <sourceConnections
               xsi:type="archimate:DiagramModelArchimateConnection"
-              id="id-f4d99146f4054456965f881a5ecc898e"
-              source="id-a73bd825af9c46fd93a08ab92d25de73"
-              target="id-d664cc28d89846a7ab74a3336b157abe">
-            <archimateRelationship
-                xsi:type="archimate:RealizationRelationship"
-                href="RealizationRelationship_id-9d910e1e5ec144f180f49fcad4699be1.xml#id-9d910e1e5ec144f180f49fcad4699be1"/>
-          </sourceConnections>
-          <sourceConnections
-              xsi:type="archimate:DiagramModelArchimateConnection"
               id="id-7d8c6ec7aa374f89b42a1fcd5be6da1f"
               source="id-a73bd825af9c46fd93a08ab92d25de73"
               target="id-e41b93170f594441a5357414414847a1">
             <archimateRelationship
                 xsi:type="archimate:CompositionRelationship"
                 href="CompositionRelationship_id-8dabe695c0814029a297cb9ee81f17b1.xml#id-8dabe695c0814029a297cb9ee81f17b1"/>
+          </sourceConnections>
+          <sourceConnections
+              xsi:type="archimate:DiagramModelArchimateConnection"
+              id="id-f4d99146f4054456965f881a5ecc898e"
+              source="id-a73bd825af9c46fd93a08ab92d25de73"
+              target="id-d664cc28d89846a7ab74a3336b157abe">
+            <archimateRelationship
+                xsi:type="archimate:RealizationRelationship"
+                href="RealizationRelationship_id-9d910e1e5ec144f180f49fcad4699be1.xml#id-9d910e1e5ec144f180f49fcad4699be1"/>
           </sourceConnections>
           <bounds
               x="12"
@@ -406,27 +406,36 @@
           <children
               xsi:type="archimate:DiagramModelArchimateObject"
               id="id-e41b93170f594441a5357414414847a1"
-              targetConnections="id-fcd6210d986f4ae8bfeadbad403f7b2e id-7d8c6ec7aa374f89b42a1fcd5be6da1f"
+              targetConnections="id-7d8c6ec7aa374f89b42a1fcd5be6da1f id-fcd6210d986f4ae8bfeadbad403f7b2e"
               fillColor="#00ffff"
               textPosition="1">
             <sourceConnections
                 xsi:type="archimate:DiagramModelArchimateConnection"
-                id="id-324ab497667c4009a41a9e58c6a133de"
+                id="id-62ac3c8220af4ba88617582d4ea97b58"
                 source="id-e41b93170f594441a5357414414847a1"
-                target="id-428d7fb3639a441f887b71b7062b502d">
+                target="id-71b4a6eb65364407b265ad7fb765c808">
               <bendpoints
                   startX="600"
-                  startY="24"
+                  startY="-24"
                   endX="-192"
-                  endY="-90"/>
+                  endY="133"/>
               <bendpoints
                   startX="600"
-                  startY="151"
+                  startY="-156"
                   endX="-192"
-                  endY="7"/>
+                  endY="1"/>
               <archimateRelationship
                   xsi:type="archimate:ServingRelationship"
-                  href="ServingRelationship_id-10ba7bf45c7e40e6b7c5f323c3ef336e.xml#id-10ba7bf45c7e40e6b7c5f323c3ef336e"/>
+                  href="ServingRelationship_id-1391324327d14b939b1aa1faf26281e2.xml#id-1391324327d14b939b1aa1faf26281e2"/>
+            </sourceConnections>
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-46e0c8875af24d1a921543f228e1c8df"
+                source="id-e41b93170f594441a5357414414847a1"
+                target="id-10371b10b8604932915e6ae38a038e65">
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-24c5c75d333b4060a3af9a569f3c5204.xml#id-24c5c75d333b4060a3af9a569f3c5204"/>
             </sourceConnections>
             <sourceConnections
                 xsi:type="archimate:DiagramModelArchimateConnection"
@@ -454,31 +463,22 @@
             </sourceConnections>
             <sourceConnections
                 xsi:type="archimate:DiagramModelArchimateConnection"
-                id="id-46e0c8875af24d1a921543f228e1c8df"
+                id="id-324ab497667c4009a41a9e58c6a133de"
                 source="id-e41b93170f594441a5357414414847a1"
-                target="id-10371b10b8604932915e6ae38a038e65">
-              <archimateRelationship
-                  xsi:type="archimate:ServingRelationship"
-                  href="ServingRelationship_id-24c5c75d333b4060a3af9a569f3c5204.xml#id-24c5c75d333b4060a3af9a569f3c5204"/>
-            </sourceConnections>
-            <sourceConnections
-                xsi:type="archimate:DiagramModelArchimateConnection"
-                id="id-62ac3c8220af4ba88617582d4ea97b58"
-                source="id-e41b93170f594441a5357414414847a1"
-                target="id-71b4a6eb65364407b265ad7fb765c808">
+                target="id-428d7fb3639a441f887b71b7062b502d">
               <bendpoints
                   startX="600"
-                  startY="-24"
+                  startY="24"
                   endX="-192"
-                  endY="133"/>
+                  endY="-90"/>
               <bendpoints
                   startX="600"
-                  startY="-156"
+                  startY="151"
                   endX="-192"
-                  endY="1"/>
+                  endY="7"/>
               <archimateRelationship
                   xsi:type="archimate:ServingRelationship"
-                  href="ServingRelationship_id-1391324327d14b939b1aa1faf26281e2.xml#id-1391324327d14b939b1aa1faf26281e2"/>
+                  href="ServingRelationship_id-10ba7bf45c7e40e6b7c5f323c3ef336e.xml#id-10ba7bf45c7e40e6b7c5f323c3ef336e"/>
             </sourceConnections>
             <bounds
                 x="12"
