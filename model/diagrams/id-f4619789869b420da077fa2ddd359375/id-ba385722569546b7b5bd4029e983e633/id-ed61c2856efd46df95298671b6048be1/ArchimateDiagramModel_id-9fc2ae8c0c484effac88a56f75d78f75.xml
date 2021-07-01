@@ -67,6 +67,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-91d19dd81f064498ade2d5061b052691"
+            fillColor="#ffff00"
             type="1">
           <sourceConnections
               xsi:type="archimate:DiagramModelArchimateConnection"
@@ -81,7 +82,7 @@
               x="24"
               y="60"
               width="145"
-              height="55"/>
+              height="181"/>
           <archimateElement
               xsi:type="archimate:ApplicationComponent"
               href="ApplicationComponent_id-2e717269d12b46dd9df425b13ce64ff1.xml#id-2e717269d12b46dd9df425b13ce64ff1"/>
@@ -179,6 +180,25 @@
               id="id-e52d21d87352432a97663163956130cb"
               targetConnections="id-cd52687751194d60b38cb77d88fe3220"
               fillColor="#ffff00">
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-d2e85fa44aaa4da98c9f2c9ee9f408ec"
+                source="id-e52d21d87352432a97663163956130cb"
+                target="id-f571fb08cbde47049bcb7b0bd9d3aeb0">
+              <bendpoints
+                  startX="132"
+                  startY="-3"
+                  endX="138"
+                  endY="287"/>
+              <bendpoints
+                  startX="132"
+                  startY="-291"
+                  endX="138"
+                  endY="-1"/>
+              <archimateRelationship
+                  xsi:type="archimate:ServingRelationship"
+                  href="ServingRelationship_id-1100e734da044965a1039a1ce2af7efd.xml#id-1100e734da044965a1039a1ce2af7efd"/>
+            </sourceConnections>
             <bounds
                 x="12"
                 y="48"
@@ -554,7 +574,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f571fb08cbde47049bcb7b0bd9d3aeb0"
-          targetConnections="id-bcf1d912f234418088116710d4fe0667"
+          targetConnections="id-bcf1d912f234418088116710d4fe0667 id-d2e85fa44aaa4da98c9f2c9ee9f408ec"
           fillColor="#00ffff">
         <bounds
             x="312"
